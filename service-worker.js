@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/GandresCoello18/social-students/precache-manifest.5dd8ff7af716c24db6e12359faa121db.js"
+  "/social-students/precache-manifest.d97ecf842f1d850acbb9598400953a57.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/GandresCoello18/social-students/index.html", {
+workbox.routing.registerNavigationRoute("/social-students/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
