@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/social-students/static/js/runtime~main.676d5152.js"
   },
   {
-    "revision": "2327196ad2a1e19cfda9",
-    "url": "/social-students/static/js/main.e19aa590.chunk.js"
+    "revision": "687b98de061e328423dd",
+    "url": "/social-students/static/js/main.a4510e4c.chunk.js"
   },
   {
-    "revision": "07d1f9378ce877e90514",
-    "url": "/social-students/static/js/2.ff626d11.chunk.js"
+    "revision": "0e4f61c613c3958ddf20",
+    "url": "/social-students/static/js/2.e69dd394.chunk.js"
   },
   {
-    "revision": "2327196ad2a1e19cfda9",
+    "revision": "687b98de061e328423dd",
     "url": "/social-students/static/css/main.f53e0509.chunk.css"
   },
   {
-    "revision": "2791e6e7d74b4cedac4cac8f66830278",
+    "revision": "898fed32c36a9bbae5286e05108e43db",
     "url": "/social-students/index.html"
   }
 ];
