@@ -20,16 +20,16 @@ class Nav extends React.Component{
         return(
             <nav className="row navegacion">
                 <div className="col-6">
-                <h5 className="text-md-center mt-3">Social Students <img src="images/smartphone.png" width="35" height="35" /></h5>
+                <h5 className="text-md-center mt-3">Social Students <img src="images/smartphone.svg" width="35" height="35" /></h5>
                 </div>
                 <div className="col-6" onClick={this.menu}>
-                <p className="text-right mt-3"><img src="images/menu-button-of-three-horizontal-lines.svg" width="30" height="30" /></p>
+                <p className="text-right mt-3"><img src="images/menu.svg" width="30" height="30" /></p>
                     <div className="row justify-content-end">
                         <div className="col col-md-6 col-lg-4 cuadro-menu">
                             <ul className="nav flex-column"> 
-                                <li className="nav-item p-1"><a href="general">General</a></li>
-                                <li className="nav-item p-1"><a href="tareas">Tareas y Trabajo</a></li>
-                                <li className="nav-item p-1"><a href="codigo">Codigos</a></li>
+                                <a href="general"><li className="nav-item p-1">General</li></a>
+                                <a href="tareas"><li className="nav-item p-1">Tareas y Trabajo</li></a>
+                                <a href="codigo"><li className="nav-item p-1">Codigos</li></a>
                             </ul>
                         </div>
                     </div>

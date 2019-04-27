@@ -4,9 +4,9 @@ import './css/login.css';
 
 class CuadroRegistro extends React.Component{
     state = {
-        imagen1: 'images/smartphone.png',
-        imagen2: 'images/notification.png',
-        imagen3: 'images/user.png',
+        imagen1: 'images/smartphone.svg',
+        imagen2: 'images/notification.svg',
+        imagen3: 'images/user.svg',
         text_modal: ''
     }
 
