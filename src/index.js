@@ -9,7 +9,6 @@ import Codigo from './pages/pages-codigo';
 import Login from './pages/login';
 
 //https://gandrescoello18.github.io/social-students/
-
 if(window.location.href === 'https://gandrescoello18.github.io/social-students/'){
     window.location.href = "login";
     //ReactDOM.render(<Login /> , document.getElementById('root'));
