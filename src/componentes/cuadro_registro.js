@@ -32,7 +32,7 @@ class CuadroRegistro extends React.Component{
                     <div className="col-12">
                         <div className="logo">
                             <img src={this.state.imagen1} className="icon-mobile" width="38" height="38" />
-                        </div>
+                        </div> 
                         <h5 className="text-center subtitulo mt-4">Social Students</h5>
                         <div className="row justify-content-around mt-4">
                             <div className="col-6">
