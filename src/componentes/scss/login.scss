@@ -24,7 +24,7 @@ body{
     border-radius: 50%;
     margin-top: 50px;
     position: relative;
-    left: 150px;
+    left: 130px;
     &:before{
         content: 'S-S';
         position: relative;
@@ -41,7 +41,7 @@ body{
     @include tamano(140px, 30px, $verde-claro);
     border-radius: 20px;
     position: relative;
-    left: 30px;
+    left: 15px;
     p{
         font-weight: bold;
         position: relative;

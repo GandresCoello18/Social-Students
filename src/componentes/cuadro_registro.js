@@ -34,7 +34,7 @@ class CuadroRegistro extends React.Component{
                             <img src={this.state.imagen1} className="icon-mobile" width="38" height="38" />
                         </div>
                         <h5 className="text-center subtitulo mt-4">Social Students</h5>
-                        <div className="row mt-4">
+                        <div className="row justify-content-around mt-4">
                             <div className="col-6">
                                 <div className="ovalo">
                                 <img src={this.state.imagen2} className="icon-notification" width="20" height="20" />
