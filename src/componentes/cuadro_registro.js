@@ -52,7 +52,7 @@ class CuadroRegistro extends React.Component{
                             <div className="col-10">
                                 <form>
                                     <input type="email" id="correo" required className="form-control text-center" placeholder="@ - Correo Electronico"/>
-                                    <button type="submit" data-toggle="modal" data-target="#exampleModal" className="btn color-btn mt-2 form-control" onClick={this.registro}>Registrarme</button>
+                                    <button type="submit" data-toggle="modal" data-target="#cuadro" className="btn color-btn mt-2 form-control" onClick={this.registro}>Registrarme</button>
                                 </form>
                             </div>
                         </div>
