@@ -1,5 +1,6 @@
 import React from 'react';
 import Modal from './modal';
+import Json from './correos.json';
 import './css/login.css';
 
 class CuadroRegistro extends React.Component{
@@ -10,6 +11,25 @@ class CuadroRegistro extends React.Component{
         text_modal: ''
     }
 
+    componentDidMount(){
+        if(this.verificar(localStorage.getItem("acceso")) === true ){
+            setTimeout( () => {
+                alert('Bienvenido, presiona aceptar');
+                var pagina="https://gandrescoello18.github.io/general/";
+                window.location.href=pagina;
+            },2000);
+        }
+        //console.log(Json.correos);
+    }
+
+    verificar = (memoria) => {
+        for(var i=0; i<Json.correos.length; i++){
+            if(memoria == Json.correos[i].direccion){
+               return true; 
+            }
+        }
+    }
+
      registro = (e) => {
          e.preventDefault();
         var correo = document.getElementById('correo');
@@ -17,8 +37,9 @@ class CuadroRegistro extends React.Component{
             this.setState({text_modal: 'Campos vacios o No escribio un correo electronico'});
         }else{
             this.setState({text_modal: 'Gracias por preferir Social Students...'});
+            localStorage.setItem("acceso", correo.value);
             setTimeout(() =>{
-                var pagina="general";
+                var pagina="https://gandrescoello18.github.io/general/";
                 window.location.href=pagina;
             },2000)
         }   
