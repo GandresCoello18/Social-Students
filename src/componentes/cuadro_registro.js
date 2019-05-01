@@ -8,7 +8,8 @@ class CuadroRegistro extends React.Component{
         imagen1: 'images/smartphone.svg',
         imagen2: 'images/notification.svg',
         imagen3: 'images/user.svg',
-        text_modal: ''
+        text_modal: '',
+        id: Json.correos[0].id
     }
 
     componentDidMount(){
@@ -59,13 +60,13 @@ class CuadroRegistro extends React.Component{
                             <div className="col-6">
                                 <div className="ovalo">
                                 <img src={this.state.imagen2} className="icon-notification" width="20" height="20" />
-                                <p className="text-center">23 Actividades</p>
+                                <p className="text-center">13 Actividades</p>
                                 </div>
                             </div>
                             <div className="col-6">
                                 <div className="ovalo">
                                 <img src={this.state.imagen3} className="icon-notification" width="20" height="20" />
-                                <p className="text-center">18 Miembros</p>
+                                <p className="text-center">{this.state.id} Miembros</p>
                                 </div>
                             </div>
                         </div>

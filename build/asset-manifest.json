@@ -1,14 +1,13 @@
 {
-  "main.css": "/social-students/static/css/main.37bf16d0.chunk.css",
-  "main.js": "/social-students/static/js/main.d43455e3.chunk.js",
-  "main.js.map": "/social-students/static/js/main.d43455e3.chunk.js.map",
+  "main.css": "/social-students/static/css/main.be9f6f07.chunk.css",
+  "main.js": "/social-students/static/js/main.fe7d67ac.chunk.js",
+  "main.js.map": "/social-students/static/js/main.fe7d67ac.chunk.js.map",
   "runtime~main.js": "/social-students/static/js/runtime~main.676d5152.js",
   "runtime~main.js.map": "/social-students/static/js/runtime~main.676d5152.js.map",
-  "static/js/2.16c4220c.chunk.js": "/social-students/static/js/2.16c4220c.chunk.js",
-  "static/js/2.16c4220c.chunk.js.map": "/social-students/static/js/2.16c4220c.chunk.js.map",
+  "static/js/2.61471fc3.chunk.js": "/social-students/static/js/2.61471fc3.chunk.js",
+  "static/js/2.61471fc3.chunk.js.map": "/social-students/static/js/2.61471fc3.chunk.js.map",
   "index.html": "/social-students/index.html",
-  "precache-manifest.2f8c032cda46822751ab37a2f3057ea1.js": "/social-students/precache-manifest.2f8c032cda46822751ab37a2f3057ea1.js",
+  "precache-manifest.db1519b4471b318d1c3fefb43ff6cf7b.js": "/social-students/precache-manifest.db1519b4471b318d1c3fefb43ff6cf7b.js",
   "service-worker.js": "/social-students/service-worker.js",
-  "static/css/main.37bf16d0.chunk.css.map": "/social-students/static/css/main.37bf16d0.chunk.css.map",
-  "static/media/nav.css": "/social-students/static/media/astronauta.aee87865.jpg"
+  "static/css/main.be9f6f07.chunk.css.map": "/social-students/static/css/main.be9f6f07.chunk.css.map"
 }
